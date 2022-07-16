@@ -14,7 +14,6 @@ import java.util.Set;
 @Table(name = "sales")
 public class Sale{
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private String id;
     private String SalesmanID;
     private String SalesmanName;

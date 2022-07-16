@@ -16,7 +16,6 @@ import java.util.Date;
 @Table(name = "productDetails")
 public class Product {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private String ProdID;
     private String ProdName;
     private String Description;
