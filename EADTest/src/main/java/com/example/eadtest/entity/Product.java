@@ -4,7 +4,7 @@ import lombok.*;
 
 import javax.persistence.*;
 import java.math.BigDecimal;
-import java.util.Date;
+import java.time.LocalDateTime;
 
 @Getter
 @Setter
@@ -19,7 +19,7 @@ public class Product {
     private String ProdID;
     private String ProdName;
     private String Description;
-    private Date DateOfManf;
+    private LocalDateTime DateOfManf;
     private BigDecimal price;
 
 }

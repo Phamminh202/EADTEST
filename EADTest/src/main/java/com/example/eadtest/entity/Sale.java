@@ -15,7 +15,7 @@ import java.util.Set;
 public class Sale{
     @Id
     private String id;
-    private String SalesmanID;
+    private int SalesmanID;
     private String SalesmanName;
     private String DOS;
 
